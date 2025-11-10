@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.text-center {
+  text-align: center;
+}
+
+.page1 {
+  /* width: 100%; */
+}
+.menu-bar {
+  background-color: #f5f5f7cc;
+  /* max-width: 100%; */
+  /* background-size: cover; */
+}
+.icon_pad_15 {
+  padding: 15px;
+}
+.icons {
+  gap: 24px;
+}
+.head-desc {
+  margin: 15px 31px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+  color: #1d1d1f;
+}
+.category-hide {
+  display: none;
+}
+.category {
+  gap: 24px;
+  font-size: 12px;
+}
+/* Tablet Style */
+@media screen and (min-width: 768px) {
+  /* Page1-Header */
+  .header1 {
+    width: 100%;
+  }
+  .head-desc {
+    margin: 16px 162px;
+  }
+}
+/* Desktop Style  */
+@media screen and (min-width: 992px) {
+  /* Page1-Header */
+  .header1 {
+    width: 100%;
+  }
+  .menu-bar {
+    justify-content: center;
+    align-items: center;
+  }
+  .category-hide {
+    display: inline;
+  }
+}
