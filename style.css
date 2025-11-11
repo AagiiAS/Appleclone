@@ -7,6 +7,7 @@
   font-family: "Inter";
 }
 
+/* General  */
 .flex {
   display: flex;
 }
@@ -26,10 +27,12 @@
 .text-center {
   text-align: center;
 }
-
-.page1 {
-  /* width: 100%; */
+/* Container */
+.whole_container {
+  gap: 12px;
 }
+/* Page1 - Header  */
+
 .menu-bar {
   background-color: #f5f5f7cc;
   /* max-width: 100%; */
@@ -66,9 +69,123 @@
   .head-desc {
     margin: 16px 162px;
   }
+
+  /* Page1-banner */
+  .banner1 {
+    background-image: url("./images/page1-hor.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  /* Page1-Text */
+  .p1_text_frame {
+    margin-bottom: 50%;
+    margin-top: 8%;
+    gap: 16px;
+    color: white;
+  }
+  .Inter-42 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+  .Inter-22 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    /* color: #f5f5f7; */
+  }
+  .btn_frame {
+    gap: 16px;
+    margin: 0px 99px;
+  }
+  .btn_learn {
+    width: 123px;
+    height: 44px;
+    background-color: #0071e3;
+    border-radius: 60px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+  }
+  .btn_buy {
+    width: 68px;
+    height: 44px;
+    border: 1px solid #2997ff;
+    border-radius: 60px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2997ff;
+  }
+  /* Page 2 */
+  .page2 {
+    width: 100%;
+    height: auto;
+    background-image: url("./images/page2-hor.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  /* Page2 - Text Box */
+  .p2_text_frame {
+    margin-top: 8%;
+    gap: 16px;
+    margin-bottom: 50%;
+  }
+  .btn_learn_wh {
+    width: 107px;
+    height: 36px;
+    background-color: white;
+    border-radius: 60px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+  }
+  .btn_buy_wh {
+    width: 66px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 60px;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  /* Page3 -Tab */
+  .page3 {
+    background-image: url("./images/page3-hor.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* justify-content: space-evenly; */
+    height: auto;
+    width: 100%;
+  }
+  /* Page2 - Text Box */
+  .p3_text_frame {
+    margin-top: 8%;
+    gap: 16px;
+    margin-bottom: 50%;
+  }
+
+  .Inter-22-G {
+    background-image: linear-gradient(#0090f7, #ba62fc, #f2416b, #f55600);
+    color: transparent;
+    background-clip: text;
+    padding-bottom: 8%;
+    font-size: 22px;
+  }
 }
+
 /* Desktop Style  */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   /* Page1-Header */
   .header1 {
     width: 100%;
@@ -79,5 +196,232 @@
   }
   .category-hide {
     display: inline;
+  }
+  .banner1 {
+    background-image: url("./images/page1-hor.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  /* Page1-Text */
+  .p1_text_frame {
+    /* margin-bottom: 100%; */
+    /* margin-top: 8%; */
+    gap: 16px;
+    color: white;
+  }
+  .Inter-52 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+  .Inter-24 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    /* color: #f5f5f7; */
+  }
+  .btn_frame {
+    gap: 16px;
+    margin: 0px 99px;
+  }
+  .btn_learn {
+    width: 123px;
+    height: 44px;
+    background-color: #0071e3;
+    border-radius: 60px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+  }
+  .btn_buy {
+    width: 68px;
+    height: 44px;
+    border: 1px solid #2997ff;
+    border-radius: 60px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2997ff;
+  }
+  /* Page 2 Desk*/
+  /* Page2 - Text Box */
+  .p2_text_frame {
+    margin-top: 8%;
+    gap: 16px;
+    margin-bottom: 50%;
+  }
+  .btn_learn_wh {
+    width: 107px;
+    height: 36px;
+    background-color: white;
+    border-radius: 60px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+  }
+  .btn_buy_wh {
+    width: 66px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 60px;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  /* Page3 -Desk */
+  .page3 {
+    background-image: url("./images/page3-hor.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* justify-content: space-evenly; */
+    height: auto;
+    width: 100%;
+  }
+  /* Page2 - Text Box */
+  .p3_text_frame {
+    margin-top: 8%;
+    gap: 16px;
+    margin-bottom: 50%;
+  }
+
+  .Inter-24-G {
+    background-image: linear-gradient(#0090f7, #ba62fc, #f2416b, #f55600);
+    color: transparent;
+    background-clip: text;
+    padding-bottom: 8%;
+    font-size: 24px;
+  }
+}
+
+/* Page1 - Banner  */
+/* Mobile style  */
+@media screen and (max-width: 600px) {
+  .banner1 {
+    background-image: url("./images/page1-col.png");
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    gap: 16px;
+  }
+  /* Text */
+  .p1_text_frame {
+    margin-top: 85%;
+    /* width: 241px; */
+    height: 114px;
+    gap: 16px;
+    margin-bottom: 10%;
+  }
+  .para-frame {
+    /* margin: 0px 18px; */
+    gap: 4px;
+  }
+  .Inter-30B {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .Inter-18 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .btn_frame {
+    gap: 12px;
+    margin: 0px 28px;
+  }
+  .btn_learn {
+    width: 107px;
+    height: 36px;
+    background-color: #0071e3;
+    border-radius: 60px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+  }
+  .btn_buy {
+    width: 66px;
+    height: 36px;
+    border: 1px solid #2997ff;
+    border-radius: 60px;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2997ff;
+  }
+  /* Page2 -Banner2 */
+
+  .page2 {
+    width: 100%;
+    height: auto;
+    background-image: url("./images/page2-col.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  /* Page2 - Text Box */
+  .p2_text_frame {
+    margin-top: 8%;
+    gap: 16px;
+    margin-bottom: 90%;
+  }
+  .btn_learn_wh {
+    width: 107px;
+    height: 36px;
+    background-color: white;
+    border-radius: 60px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+  }
+  .btn_buy_wh {
+    width: 66px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 60px;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  /*  Page 3 */
+
+  .page3 {
+    background-image: url("./images/page3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    border: 1px solid red;
+  }
+  /* Page2 - Text Box */
+  .p3_text_frame {
+    margin-top: 8%;
+    gap: 16px;
+    margin-bottom: 70%;
+  }
+
+  .Inter-18-G {
+    background-image: linear-gradient(#0090f7, #ba62fc, #f2416b, #f55600);
+    color: transparent;
+    background-clip: text;
+    padding-bottom: 10%;
+    font-size: 18px;
   }
 }
