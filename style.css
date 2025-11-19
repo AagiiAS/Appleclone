@@ -318,7 +318,7 @@
     font-size: 14px;
     /* padding: 8p 15px; */
     width: 108px;
-    height:36px;
+    height: 36px;
     margin-left: 30px;
   }
   .drama_bold {
@@ -327,6 +327,7 @@
   .scroll_paragraph {
     width: 400px;
     /* margin-top: 10px; */
+  }
 }
 
 /*========== Desktop Style ==================*/
