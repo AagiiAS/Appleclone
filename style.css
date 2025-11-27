@@ -323,6 +323,31 @@
   .scroll_paragraph {
     width: 400px;
   }
+
+  /* === Tab Animation  */
+  .animation_container_t {
+    gap: 16px;
+    margin-bottom: 68px;
+  }
+  .anima_card_t1 {
+    height: 194px;
+    width: 286px;
+  }
+  .bg_pink {
+    background-color: #6529cf;
+  }
+  .anima_text_t {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700px;
+  }
+  .bg_green {
+    background-color: #2a402d;
+  }
+  .bg_dark {
+    background-color: #040303;
+  }
 }
 
 /*========== Desktop Style ==================*/
@@ -566,10 +591,41 @@
     font-size: 17px;
     margin-top: 10px;
   }
+
+  /* ========= Animation Desktop=== */
+  .animation_container_d {
+    gap: 16px;
+    margin-bottom: 56px;
+  }
+
+  .anima_d {
+    width: 417px;
+    height: 236px;
+    color: white;
+  }
+  .bg_d1 {
+    background-image: url(./images/a_d1.jpg);
+  }
+  .anima_text_d {
+    font-size: 14px;
+    font-weight: 600px;
+  }
+  .bg_d2 {
+    background-color: #1b2632;
+  }
+  .bg_d3 {
+    background-image: url(./images/a_d3.jpg);
+  }
+  .bg_d4 {
+    background-image: url(./images/a_d4.jpg);
+  }
+  .bg_d5 {
+    background-image: url(./images/a_d5.jpg);
+  }
 }
 
 /* Page1 - Banner  */
-/* =====Mobile style ============================ */
+/* ==================Mobile style ============================ */
 @media screen and (max-width: 759px) {
   /*   Page1 -----Mob -0----- */
   .banner1 {
@@ -690,80 +746,6 @@
     font-size: 18px;
   }
 
-  /* Page4-Mob */
-  /* .page4 {
-    background-image: url("./images/airpod-c.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: white;
-    height: 100%;
-  }
-  .p4_text_frame {
-   
-    margin: auto;
-    padding-top: 60%;
-    padding-bottom: 20%;
-    gap: 20px;
-  }
-  .Inter-18-h20 {
-    font-size: 18px;
-    line-height: 20px;
-  }
-
-  Page4-Mob .page5 {
-    background-image: url("./images/watch-c.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-   
-  }
-  .p5_text_frame {
-    margin: auto;
-    padding-top: 10%;
-    padding-bottom: 90%;
-    gap: 16px;
-  }
-  .Inter-28 {
-    font-size: 28px;
-    font-weight: 700;
-    
-  }
-
-  .p5_logo {
-    padding-right: 7px;
-    padding-bottom: 7px;
-    opacity: 80%;
-  }
-  .Inter-13B {
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 100%;
-  }
-  .Inter-18-h25 {
-    font-size: 18px;
-    line-height: 25px;
-  }
-  */
-  /* .p4-5_hid {
-    display: none;
-  } */
-  .p4_desktop {
-    display: none;
-  }
-  .page4 {
-    background-image: url("./images/airpod-c.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    color: white;
-  }
-  .page5 {
-    background-image: url("./images/watch-c.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    width: 100%;
-    /* color: white; */
-  }
   .page6 {
     background-image: url("./images/air-c.png");
     background-size: cover;
@@ -781,6 +763,27 @@
   }
   .phone-hid {
     display: none;
+  }
+  .animation_container {
+    margin-bottom: 56px;
+    gap: 6px;
+  }
+
+  .anima_card_ph1 {
+    background-color: #6529cf;
+    width: 238px;
+    height: 134px;
+  }
+  .anima_card_ph2 {
+    background-image: url(./images/a_2_p.png);
+    width: 238px;
+    height: 134px;
+  }
+  .anima_text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
   }
 }
 
