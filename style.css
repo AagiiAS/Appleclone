@@ -328,6 +328,9 @@
   .animation_container_t {
     gap: 16px;
     margin-bottom: 68px;
+    height: 262px;
+    overflow-x: scroll;
+    width: 100%;
   }
   .anima_card_t1 {
     height: 194px;
@@ -596,6 +599,8 @@
   .animation_container_d {
     gap: 16px;
     margin-bottom: 56px;
+    width: 100%;
+    overflow-x: scroll;
   }
 
   .anima_d {
@@ -812,23 +817,6 @@
 
     overflow-x: scroll;
   }
-  .animation_box {
-    width: 100%;
-    animation-name: phoneAnimation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    transition: 4s;
-    position: relative;
-    gap: 6px;
-  }
-  @keyframes phoneAnimation {
-    from {
-      transform: translateX(0%);
-    }
-    to {
-      transform: translateX(-50%);
-    }
-  }
 }
 
 /* ===================== General =================================== */
@@ -965,5 +953,23 @@ a {
 }
 a:hover {
   background-color: black;
+}
+
+.animation_box {
+  width: 100%;
+  animation-name: phoneAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transition: 4s;
+  position: relative;
+  gap: 6px;
+}
+@keyframes phoneAnimation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 /* Hidden Elements-Tab */
