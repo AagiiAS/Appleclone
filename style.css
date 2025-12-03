@@ -728,6 +728,24 @@
     width: 100%;
     /* border: 1px solid red; */
   }
+
+  .page4 {
+    background-image: url("./images/airpod-c.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+    width: 100%;
+  }
+  .page5 {
+    background-image: url("./images/watch-c.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 500px;
+    width: 100%;
+  }
+
   /* Page2 - Text Box */
 
   .Inter-18-G {
@@ -760,6 +778,7 @@
     background-size: cover;
     height: 500px;
     width: 100%;
+    /* background-position: center; */
   }
   .phone-hid {
     display: none;
@@ -784,6 +803,31 @@
     font-size: 12px;
     line-height: 16px;
     margin-top: 10px;
+  }
+
+  /* Animation Phone  */
+  .animation_container {
+    height: 216px;
+    width: 100%;
+
+    overflow-x: scroll;
+  }
+  .animation_box {
+    width: 100%;
+    animation-name: phoneAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 4s;
+    position: relative;
+    gap: 6px;
+  }
+  @keyframes phoneAnimation {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
   }
 }
 
